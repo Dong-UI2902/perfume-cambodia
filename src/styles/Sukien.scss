@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.sukien {
+  .box {
+    position: relative;
+    height: unset;
+  }
+  .section1 {
+    overflow: hidden;
+    width: 100%;
+    padding-right: 0;
+    .header {
+      .khuyenmai {
+        &__img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+        }
+
+        .cucsoc {
+          position: relative;
+          height: 600px;
+
+          label {
+            position: absolute;
+            font-size: 50px;
+            line-height: 40px !important;
+            text-align: right;
+
+            .tang2 {
+              position: absolute;
+              font-size: 110px;
+              top: 27px;
+            }
+          }
+
+          .uudai1 {
+            left: 20px;
+            top: 80px;
+          }
+
+          .uudai2 {
+            right: 75px;
+            top: 240px;
+          }
+        }
+      }
+    }
+
+    // .mua2 {
+    //   left: 230px !important;
+    //   top: 40px !important;
+    // }
+
+    // .mua1 {
+    //   left: 150px !important;
+    //   top: 210px !important;
+
+    //   svg {
+    //     transform: unset !important;
+    //   }
+    // }
+
+    .abc {
+      top: 150px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      color: rgb(33, 25, 22);
+    }
+  }
+
+  .duynhat {
+    background: linear-gradient(180deg, rgba(208, 1, 27, 1), rgba(255, 189, 89, 1));
+    border-radius: 100px;
+    position: absolute;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+  }
+
+  .duynhat > div {
+    width: 92px;
+    height: 92px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 3.5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgb(208, 1, 27);
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .right {
+    top: 40px;
+    right: 10px;
+    position: absolute;
+    width: 100px;
+  }
+  .left {
+    top: 200px;
+    left: 10px;
+    width: 120px;
+    height: 120px;
+
+    span {
+      font-size: 50px;
+    }
+
+    div {
+      padding-top: 25px;
+      width: 112px;
+      height: 112px;
+      line-height: 20px;
+    }
+  }
+
+  .buy {
+    max-width: 250px !important;
+  }
+
+  .list-sp {
+    display: grid;
+    gap: 1rem 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .box-price {
+    margin: 0 auto;
+  }
+
+  .section3 {
+    .buy {
+      background-color: #fff;
+      color: rgb(164, 9, 7);
+      display: block;
+    }
+  }
+
+  .tuvanngay {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    bottom: 10px;
+    text-align: center;
+    left: 0;
+    a {
+      display: block;
+      margin: 0 auto;
+      border: 1px solid #fff;
+    }
+  }
+
+  .tang {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .box-card {
+    padding: 0 !important;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      transform: translateY(-0.3rem);
+    }
+  }
+
+  .box-order {
+    margin-top: 4px !important;
+    margin-bottom: 6px;
+  }
+
+  .box-price {
+    display: grid;
+    gap: 1rem 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: end;
+    position: relative;
+
+    .price {
+      font-size: 13px;
+    }
+
+    .sale-price {
+      font-size: 16px !important;
+    }
+  }
+
+  .narciso {
+    .section5 .comment {
+      justify-content: unset;
+    }
+
+    .description {
+      background-color: #f0f2f5;
+      padding: 8px 12px;
+      border-radius: 18px;
+
+      p {
+        padding: 3px 0;
+        font-size: 0.875rem;
+        color: #1c1e21;
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+.tet {
+  position: relative;
+}
+
+.home {
+  &__title-img {
+    width: 90%;
+  }
+
+  &__img {
+    &-longden1,
+    &-longden2,
+    &-longden3,
+    &-rong,
+    &-tag,
+    &-cay,
+    &-cay2,
+    &-cay3 {
+      position: absolute;
+    }
+
+    &-cay,
+    &-cay2,
+    &-cay3 {
+      width: 300px;
+    }
+
+    &-cay {
+      left: 0;
+      top: 1rem;
+    }
+
+    &-cay2 {
+      bottom: -7rem;
+      left: -0.5rem;
+    }
+
+    &-cay3 {
+      transform: rotateY(180deg) rotate(28deg);
+      right: -0.5rem;
+      top: -2rem;
+    }
+
+    &-rong {
+      width: 520px;
+      bottom: 0;
+      right: 5rem;
+    }
+
+    &-longden1,
+    &-longden2 {
+      width: 70px;
+    }
+
+    &-longden1 {
+      bottom: 8rem;
+      left: 8rem;
+    }
+
+    &-longden2 {
+      bottom: 2rem;
+      right: 15rem;
+    }
+
+    &-longden3 {
+      width: 90px;
+      top: 0rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      transform: rotateY(180deg);
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home {
+    &__img {
+      &-cay,
+      &-cay2,
+      &-cay3 {
+        width: 100px;
+      }
+
+      &-cay {
+        left: 0;
+        top: 1rem;
+      }
+
+      &-cay2 {
+        display: none;
+      }
+
+      &-cay3 {
+        transform: rotateY(180deg) rotate(28deg);
+        right: -0.5rem;
+        top: 18rem;
+      }
+
+      &-rong {
+        display: none;
+      }
+
+      &-longden1,
+      &-longden2 {
+        width: 40px;
+      }
+
+      &-longden1 {
+        bottom: 15rem;
+        left: 1rem;
+      }
+
+      &-longden2 {
+        display: none;
+      }
+
+      &-longden3 {
+        width: 50px;
+        top: -1rem;
+        left: unset;
+        right: 3rem;
+        margin: unset;
+        transform: rotateY(180deg);
+      }
+    }
+  }
+}
